@@ -100,7 +100,7 @@ function CandidateModal({ candidate, onClose, onStatusChange }) {
           {(candidate.portfolioUrl || candidate.resumeUrl) && (
             <div className="flex gap-4 mb-8">
               {candidate.resumeUrl && (
-                <a href={`http://localhost:5000${candidate.resumeUrl}`} target="_blank" rel="noopener noreferrer" className="btn-primary flex-1">
+                <a href={`http://https://job-tracker-imch.onrender.com:5000${candidate.resumeUrl}`} target="_blank" rel="noopener noreferrer" className="btn-primary flex-1">
                   <FileText className="w-5 h-5 mr-2" /> View Resume
                 </a>
               )}
