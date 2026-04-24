@@ -1,0 +1,16 @@
+node_modules/
+**/node_modules/
+
+.env
+**/.env
+
+build/
+dist/
+**/build/
+**/dist/
+
+*.log
+*.zip
+.DS_Store
+.cache/
+coverage/
