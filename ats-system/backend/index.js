@@ -9,6 +9,9 @@ const User = require('./models/User');
 const Job = require('./models/Job');
 
 const app = express();
+app.get("/", (req, res) => {
+  res.send("Job Tracker Backend Running");
+});
 app.use(cors(
   {
     origin: "https://job-tracker-delta-one.vercel.app",
